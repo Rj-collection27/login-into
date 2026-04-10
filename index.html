@@ -5,6 +5,7 @@
 	  <style> 
 	  
 	 body {
+		 display:flex;
 	     justify-content:center;
 		 align-items:center;
 		 height:100vh
@@ -14,8 +15,7 @@
 		 text-align: center;
 		 font-size: 20px;
 		 padding: 40px;
-		 margin: 80px;
-		length: 40px   
+		 margin: 80px;   
 		 }
 	label {
          font-size: 20px;	
@@ -29,7 +29,7 @@
 	  </head>
 	  <body>
 
-<form onsubmit="window.location.href='first.html'; return false;">
+<form action="second.html">
 	  
 	  <h3>student login </h3>
 	  <label> USERNAME :</label>
@@ -42,7 +42,7 @@
  	  <label> PASSWORD :</label>
 	  <input placeholder="enter your password" type="password" required></input><br><br>
 	 
-	  <button onclick="submit"> submit </button>
+	  <button type="submit"> submit </button>
 	  
 	 </form> 
 	  
